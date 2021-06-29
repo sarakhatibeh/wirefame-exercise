@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    border: 1px solid red;
+    padding: 5px;
+    background-color:#6E6E6E;
+
+}
+header nav {
+    /* margin-top: 10px; */
+    /* padding-left: 30px; */
+}
+ nav ul li {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+color: #DDD;
+}
+
+.topp {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+img {
+    color:black;
+    /* width: 100%; */
+
+
+}
+
+nav ul {
+    position: relative;
+}
+
+nav ul li :first-child {
+    /* position: absolute; */
+    /* left :100px; */
+}
+
+footer{
+    clear: both;
+}
